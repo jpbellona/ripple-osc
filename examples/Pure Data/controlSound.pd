@@ -1,0 +1,50 @@
+#N canvas 1022 207 604 476 10;
+#X obj 15 129 soundfiler;
+#N canvas 0 22 450 300 (subpatch) 0;
+#X array mySound 526682 float 2;
+#X coords 0 1 526682 -1 200 140 1;
+#X restore 11 251 graph;
+#X obj 370 280 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 310 332 hip~ 5;
+#X obj 310 369 dac~;
+#X text 354 334 high pass filter;
+#X floatatom 15 155 15 0 0 0 - - -;
+#X obj 18 405 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 18 432 \; pd dsp \$1;
+#X text 91 431 sound on/off;
+#X msg 15 104 read dream.wav mySound;
+#X obj 310 306 tabplay~ mySound;
+#X text 393 279 bang plays the entire sound;
+#X text 436 250 start duration;
+#X msg 360 250 5000 20000;
+#X obj 310 160 random 526682;
+#X obj 310 135 bng 15 250 50 0 empty empty empty 17 7 0 10 -262144
+-1 -1;
+#X obj 310 109 metro 250;
+#X obj 310 76 tgl 15 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X obj 421 75 r soundDuration;
+#X msg 310 204 \$1 10000;
+#X msg 421 131 56;
+#X obj 421 103 prepend set;
+#X text 124 8 loop randomly through an audio file. duration of loop
+determined by the audience.;
+#X text 323 45 requires receive_OSC_ints.pd;
+#X connect 0 0 6 0;
+#X connect 2 0 11 0;
+#X connect 3 0 4 0;
+#X connect 3 0 4 1;
+#X connect 7 0 8 0;
+#X connect 10 0 0 0;
+#X connect 11 0 3 0;
+#X connect 14 0 11 0;
+#X connect 15 0 20 0;
+#X connect 16 0 15 0;
+#X connect 17 0 16 0;
+#X connect 18 0 17 0;
+#X connect 19 0 17 1;
+#X connect 19 0 22 0;
+#X connect 20 0 11 0;
+#X connect 22 0 21 0;

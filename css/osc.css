@@ -1,0 +1,25 @@
+
+#osc-ip-paste {
+	margin-left: 10px;
+	position: relative;
+	bottom: 4px;
+}
+
+.osc {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 18px;
+	padding-left: 10px;
+}
+
+.remove-wrapper {
+	position: absolute;
+	left: 240px;
+}
+.remove-wrapper :hover {
+	cursor: pointer;
+}
+.osc-remove {
+	position: relative;
+	top: 2px;
+}

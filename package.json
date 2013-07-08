@@ -1,0 +1,14 @@
+{
+  "title": "OSC",
+  "author": "Jon Bellona",
+  "description": "OSC plugin translates questions and answers sent by Ripple into OSC messages and transmits them over udp.  The local network is the server's IP and a user-defined Port.",
+  "name": "osc",
+  "version": "1.1.0",
+  "private": true,
+  "dependencies": {
+  	"osc-min":"0.0.9"
+  },
+  "ripple": {
+    "hasConfig": true
+  }
+}
