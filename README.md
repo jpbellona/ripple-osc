@@ -75,11 +75,11 @@ The 'multiple-choice' data type includes the additional message
 
 > __*/question/choices*__
 > > There are five typetags (sssss) sent with this message:
-> > * [0] => String choice A;            (admin generate these choices within Ripple)
-> > * [1] => String choice B;
-> > * [2] => String choice C;
-> > * [3] => String choice D;
-> > * [4] => String choice E;
+ * [0] => String choice A;            (admin generate these choices within Ripple)
+ * [1] => String choice B;
+ * [2] => String choice C;
+ * [3] => String choice D;
+ * [4] => String choice E;
 **
 
 The 'slider' data type includes two additional messages
