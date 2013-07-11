@@ -59,6 +59,7 @@ __OSC Client IPs__ are computer IP addresses that will receive OSC messages. If 
 OSC Messaging
 ---------------------
 
+
 This section breaks down the type of OSC messages.
 
 ### Questions
