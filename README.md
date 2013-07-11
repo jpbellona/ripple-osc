@@ -176,5 +176,5 @@ Users control the size and speed of their moving ball in space using a 'slider' 
 [4]: https://npmjs.org/package/npm "A package manage for node"
 [5]: http://github.org "OSC plugin on github"
 
-[img1]: https://jpbellona.github.io/ripple-osc/images/ripple-plugins.png "Ripple Plugins page"
-[img2]: https://jpbellona.github.io/ripple-osc/images/osc-config.png "OSC Config page"
+[img1]: https://raw.github.com/jpbellona/ripple-osc/master/images/ripple-plugins.png "Ripple Plugins page"
+[img2]: https://raw.github.com/jpbellona/ripple-osc/master/images/osc-config.png "OSC Config page"
