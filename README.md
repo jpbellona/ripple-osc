@@ -45,17 +45,17 @@ Click "Configure" to open up the OSC configuration page.
 __Room ID__ relates to a Question/Answer session between an admin (you) and anyone who navigates to your session url. The Room ID is auto-generated when a session is created.
 
  > *Note: Because multiple rooms may be open at once inside Ripple, only a single room may be used to transmit OSC messages. (i.e. Only a single room is supported at this time).*
-
+ **
 
 __OSC Client Port__ is a single port that all OSC messages will be sent to.
 
 __OSC Client IPs__ are computer IP addresses that will receive OSC messages. If you run Ripple from a localhost, then you may use 127.0.0.1 to send OSC messages locally on your computer. You can separate IP addresses with a comma in order to send messages to multiple destinations.
 
 > *NOTE: The OSC server IP will always be set based upon Ripple's server, while the client IPs are any user-define recipient of OSC messages.*
+**
 
 **IMPORTANT: Saving the OSC Configuration page pings the OSC server, which can serve as a simple test to ensure proper connection.**
 
-**
 
 
 OSC Messaging
@@ -67,8 +67,8 @@ Questions sent by the admin are output as
 __*/question*__
 
 > There are two typetags (ss) sent with this message:
-> * [0] => String the data type;       ( 'numeric', 'cloud', 'slider', 'open-response', 'true-false', 'multiple-choice' )
-> * [1] => String question text;       ( the admin's question to the group )
+ * [0] => String the data type;       ( 'numeric', 'cloud', 'slider', 'open-response', 'true-false', 'multiple-choice' )
+ * [1] => String question text;       ( the admin's question to the group )
 **
 
 The 'multiple-choice' data type includes the additional message
@@ -85,12 +85,13 @@ The 'multiple-choice' data type includes the additional message
 The 'slider' data type includes two additional messages
 
 > __*/question/slider/scale*__
-> > A single typetag (i) is sent with this message  <br/>
-> > Integer: the range of the slider
+ A single typetag (i) is sent with this message  <br/>
+ Integer: the range of the slider
+**
 
 > __*/question/slider/type*__
-> > A single typetag (s) is sent with this message  <br/>
-> > String: the type of slider used
+ A single typetag (s) is sent with this message  <br/>
+ String: the type of slider used
 **
 
 The 'numeric' data type includes three additional messages
