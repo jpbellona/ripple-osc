@@ -171,5 +171,5 @@ Included with the [OSC plugin][5] are several [Processing][2] sketches scripted 
 [4]: https://npmjs.org/package/npm "A package manage for node"
 [5]: http://github.org "OSC plugin on github"
 
-[img1]: images/ripple-plugins.png "Ripple Plugins page"
-[img2]: images/osc-config.png "OSC Config page"
+[img1]: https://github.com/jpbellona/ripple-osc/images/ripple-plugins.png "Ripple Plugins page"
+[img2]: https://github.com/jpbellona/ripple-osc/images/osc-config.png "OSC Config page"
