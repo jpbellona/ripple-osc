@@ -59,6 +59,8 @@ __OSC Client IPs__ are computer IP addresses that will receive OSC messages. If 
 OSC Messaging
 ---------------------
 
+This section breaks down the type of OSC messages.
+
 ### Questions
 Questions sent by the admin are output as
 
@@ -97,10 +99,12 @@ The 'numeric' data type includes three additional messages
 > __*/question/numeric/minimum*__
  A single typetag (i) is sent with this message <br/>
  Integer: the lowest value of the responses
+**
 
 > __*/question/numeric/maximum*__
  A single typetag (i) is sent with this message <br/>
  Integer: the highest value of the responses
+**
 
 > __*/question/numeric/interval*__
  A single typetag (i) is sent with this message <br/>
@@ -119,6 +123,7 @@ The shared content response messages (__*/response*__) includes basic informatio
  * [1] => String the data type;       ( 'dial', 'open-response', 'true-false', 'multiple-choice' )
  * [2] => String question text;       ( the admin's question to the group )
  * [3] => Int total response count;   ( every response generated during the session is counted )
+**
 
 **IMPORTANT: Saving the OSC configuration page resets the total response count.**
 
