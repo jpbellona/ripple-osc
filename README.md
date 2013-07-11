@@ -11,22 +11,22 @@ This version contains a single OSC server.
 Requires
 ---------------------
 
-* [Ripple][0], audience response system (open-source software)
-* OSC enabled software ([Processing][2], Max/MSP) to parse and use OSC messages.
+- [Ripple][0], audience response system (open-source software)
+- OSC enabled software ([Processing][2], Max/MSP) to parse and use OSC messages.
 
 
 
 Installation and Use
 ---------------------
 
-* Install [Ripple][0].
-* Download [OSC plugin][5].
-* Create a 'osc' directory within the /plugins directory of your [Ripple][0] install. 
-* Copy the OSC plugin files into the /osc directory.
-* Run <code>$ npm install</code>  from within the /osc directory to install all necessary node modules. You will need to use a line command tool (e.g. Terminal).
-* Start the [Ripple][0] server.
-* Run [Ripple][0] app with node. (e.g. Terminal. cmd <code>$ node app.js</code>  or cmd <code>$ ripple start</code>)
-* On [Ripple][0], login as admin and navigate to Plugins. Configure the [OSC plugin][5] page.
+- Install [Ripple][0].
+- Download [OSC plugin][5].
+- Create a 'osc' directory within the /plugins directory of your [Ripple][0] install. 
+- Copy the OSC plugin files into the /osc directory.
+- Run <code>$ npm install</code>  from within the /osc directory to install all necessary node modules. You will need to use a line command tool (e.g. Terminal).
+- Start the [Ripple][0] server.
+- Run [Ripple][0] app with node. (e.g. Terminal. cmd <code>$ node app.js</code>  or cmd <code>$ ripple start</code>)
+- On [Ripple][0], login as admin and navigate to Plugins. Configure the [OSC plugin][5] page.
 
 
 
