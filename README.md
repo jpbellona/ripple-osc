@@ -169,7 +169,7 @@ Users control the size and speed of their moving ball in space using a 'slider' 
 
 **@plugin author [Jon Bellona][1]**
 
-[0]: http://git.uoregon.edu/  "Ripple on github"
+[0]: https://github.com/uoregon-libraries/ripple  "Ripple on github"
 [1]: http://jpbellona.com/  "Jon Bellona"
 [2]: http://processing.org/  "http://processing.org/"
 [3]: http://www.sojamo.de/libraries/oscP5/  "oscP5 library"
