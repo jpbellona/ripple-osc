@@ -1,5 +1,7 @@
 /** 
  * WBlut HEMesh library with OSCp5 library with ARS plugin
+ * v.HE_Mesh 1.81
+ * http://hemesh.wblut.com/
  *
  * Counts the characters of responses generated and bends the 3D Mesh accordingly.
  * Admin can hit 'r' to reset the mesh and acquire new responses.
@@ -7,24 +9,11 @@
  * Continuous type slider responses work really well. 
  * for 0-10 users (range 0-50 works well)
  */
-import wblut.geom.core.*;
-import wblut.hemesh.creators.*;
-import wblut.hemesh.tools.*;
-import wblut.geom.grid.*;
-import wblut.geom.nurbs.*;
-import wblut.core.math.*;
-import wblut.hemesh.subdividors.*;
-import wblut.core.processing.*;
-import wblut.hemesh.composite.*;
-import wblut.core.random.*;
-import wblut.hemesh.core.*;
-import wblut.geom.frame.*;
-import wblut.core.structures.*;
-import wblut.hemesh.modifiers.*;
-//import wblut.hemesh.options.*;
-import wblut.hemesh.simplifiers.*;
-import wblut.geom.triangulate.*;
-import wblut.geom.tree.*;
+import wblut.math.*;
+import wblut.processing.*;
+import wblut.core.*;
+import wblut.hemesh.*;
+import wblut.geom.*;
 
 HE_Mesh mesh;
 WB_Render render;
